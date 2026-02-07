@@ -3798,90 +3798,70 @@ emotionally exhausted or stuck internally.</p>
 
 
 
-<section
-  data-test="page-section"
-  data-section-theme="light"
-  class="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle light"
-  data-fluid-engine-section
->
-  <div class="section-border">
-    <div class="section-background"></div>
-  </div>
+<section style="background:#ffffff; padding:80px 0;">
+  <div style="
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    align-items:center;
+  ">
 
-  <div class="content-wrapper">
-    <div class="content">
-      <div data-fluid-engine="true">
-
-        <style>
-          .fe-office {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-          }
-
-          .office-images {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-          }
-
-          .office-images img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            object-fit: cover;
-          }
-
-          @media (max-width: 768px) {
-            .fe-office {
-              grid-template-columns: 1fr;
-            }
-          }
-        </style>
-
-        <div class="fe-office">
-
-          <!-- LEFT: IMAGES (VERTICAL SPLIT) -->
-          <div class="office-images">
-            <img src="https://github.com/akshaypotham23-dot/Dr.-Maya-Reynolds/blob/main/office1.jpeg?raw=true" alt="Therapy office interior">
-            <img src="https://github.com/akshaypotham23-dot/Dr.-Maya-Reynolds/blob/main/office2.jpeg?raw=true" alt="Counseling room">
-          </div>
-
-          <!-- RIGHT: TEXT -->
-          <div class="office-text">
-            <h1>Our Office</h1>
-
-            <p>
-              The office is located in Santa Monica, California, and offers a quiet,
-              private setting for in-person therapy sessions.
-            </p>
-
-            <p>
-              My Santa Monica office is designed to feel calm and grounding.
-              Natural light and a comfortable, uncluttered environment help clients
-              feel at ease when they arrive.
-            </p>
-
-            <p>
-              I offer in-person sessions from this office, as well as secure telehealth
-              appointments for clients across California. Privacy, safety, and comfort
-              are always prioritized.
-            </p>
-
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=123+W+45th+Street+Santa+Monica+CA+90401"
-              class="sqs-button-element--large sqs-button-element--secondary sqs-block-button-element"
-            >
-              View Office Location
-            </a>
-          </div>
-
-        </div>
-
-      </div>
+    <!-- LEFT: IMAGES (VERTICAL SPLIT) -->
+    <div style="display:flex; flex-direction:column; gap:20px;">
+      <img
+        src="https://github.com/akshaypotham23-dot/Dr.-Maya-Reynolds/blob/main/office1.jpeg?raw=true"
+        style="width:100%; border-radius:12px;"
+        alt="Therapy office interior"
+      >
+      <img
+        src="https://github.com/akshaypotham23-dot/Dr.-Maya-Reynolds/blob/main/office2.jpeg?raw=true"
+        style="width:100%; border-radius:12px;"
+        alt="Counseling room"
+      >
     </div>
+
+    <!-- RIGHT: TEXT -->
+    <div>
+      <h1 style="margin-bottom:20px;">Our Office</h1>
+
+      <p>
+        The office is located in Santa Monica, California, and offers a quiet,
+        private setting for in-person therapy sessions.
+      </p>
+
+      <p>
+        My Santa Monica office is designed to feel calm and grounding.
+        Natural light and a comfortable, uncluttered environment help clients
+        feel at ease when they arrive.
+      </p>
+
+      <p>
+        I offer in-person sessions from this office, as well as secure telehealth
+        appointments for clients across California. Privacy, safety, and comfort
+        are always prioritized.
+      </p>
+
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=123+W+45th+Street+Santa+Monica+CA+90401"
+        style="
+          display:inline-block;
+          margin-top:20px;
+          padding:14px 28px;
+          border:1px solid #000;
+          text-decoration:none;
+          color:#000;
+          border-radius:30px;
+        "
+      >
+        View Office Location
+      </a>
+    </div>
+
   </div>
 </section>
+
 
 
   
@@ -6359,6 +6339,7 @@ emotionally exhausted or stuck internally.</p>
 
   </body>
 </html>
+
 
 
 
